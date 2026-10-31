@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>قهوة المبرمجين | تعليم البرمجة والحاسوب</title>
+
+    <meta name="description" content="قهوة المبرمجين قناة تعليمية عربية تقدم دروس البرمجة والحاسوب وعلوم الكمبيوتر من الصفر إلى الاحتراف، مع تطبيقات عملية وشروحات مبسطة.">
+
+    <meta name="keywords" content="قهوة المبرمجين, تعليم البرمجة, تعلم البرمجة, C++, Java, Python, تعليم الحاسوب, علوم الكمبيوتر, قواعد البيانات">
+
+    <meta name="author" content="علي رضا محمد">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="قهوة المبرمجين | تعليم البرمجة">
+    <meta property="og:description" content="رحلتك في عالم البرمجة تبدأ من هنا. تعلم البرمجة والحاسوب باللغة العربية.">
+    <meta property="og:type" content="website">
+
+    <link rel="canonical" href="https://alirida4849.github.io/">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Tahoma, Arial, sans-serif;
+            background: #0b1120;
+            color: #ffffff;
+            line-height: 1.9;
+        }
+
+        header {
+            background: #111c32;
+            padding: 22px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            border-bottom: 1px solid #263650;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+            color: #facc15;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 12px;
+        }
+
+        nav a:hover {
+            color: #facc15;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: linear-gradient(135deg, #111c32, #073b67);
+        }
+
+        .hero h1 {
+            font-size: 44px;
+            color: #facc15;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            max-width: 750px;
+            margin: auto;
+            font-size: 19px;
+            color: #dbeafe;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 13px 30px;
+            background: #facc15;
+            color: #111827;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #ffffff;
+            transform: translateY(-3px);
+        }
+
+        section {
+            padding: 65px 9%;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 30px;
+            color: #facc15;
+            margin-bottom: 25px;
+        }
+
+        section p {
+            max-width: 850px;
+            margin: auto;
+            color: #cbd5e1;
+        }
+
+        .courses {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 35px;
+        }
+
+        .card {
+            background: #17243b;
+            padding: 28px 20px;
+            border-radius: 12px;
+            border: 1px solid #263650;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            border-color: #facc15;
+        }
+
+        .card h3 {
+            color: #facc15;
+            margin-bottom: 12px;
+        }
+
+        .instructor {
+            background: #111c32;
+        }
+
+        footer {
+            background: #080e19;
+            padding: 30px 15px;
+            text-align: center;
+            color: #94a3b8;
+        }
+
+        footer a {
+            color: #facc15;
+            text-decoration: none;
+        }
+
+        @media(max-width: 600px) {
+            .hero h1 {
+                font-size: 30px;
+            }
+
+            nav {
+                width: 100%;
+                text-align: center;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">☕ قهوة المبرمجين</div>
+
+    <nav>
+        <a href="#home">الرئيسية</a>
+        <a href="#about">عن القناة</a>
+        <a href="#courses">الدورات</a>
+        <a href="#instructor">المدرب</a>
+    </nav>
+</header>
+
+<main>
+
+    <div class="hero" id="home">
+        <h1>قهوة المبرمجين</h1>
+
+        <p>
+            مجتمع تعليمي عربي لعشاق البرمجة والتكنولوجيا.
+            نقدم شروحات ودروساً عملية في البرمجة وعلوم الحاسوب،
+            ونساعد المبتدئين على بناء مهاراتهم التقنية
+            والانطلاق نحو عالم التكنولوجيا.
+        </p>
+
+        <a class="btn"
+           href="https://www.youtube.com/"
+           target="_blank"
+           rel="noopener">
+           شاهد قناتنا على YouTube
+        </a>
+    </div>
+
+    <section id="about">
+        <h2>من نحن؟</h2>
+
+        <p>
+            قهوة المبرمجين قناة تعليمية عربية تهدف إلى نشر
+            المعرفة التقنية وتبسيط مفاهيم البرمجة وعلوم الحاسوب.
+            نهتم بالتعليم المنهجي والتطبيق العملي،
+            ونقدم محتوى يساعد الطلاب والمهتمين بالتكنولوجيا
+            على تطوير مهاراتهم خطوة بخطوة.
+        </p>
+    </section>
+
+    <section id="courses">
+        <h2>مجالاتنا التعليمية</h2>
+
+        <div class="courses">
+
+            <div class="card">
+                <h3>أساسيات الحاسوب</h3>
+                <p>تعلم الحاسوب وأنظمة التشغيل وتطبيقات Microsoft Office.</p>
+            </div>
+
+            <div class="card">
+                <h3>لغات البرمجة</h3>
+                <p>تعلم C++ وJava وPython ومبادئ بناء البرامج.</p>
+            </div>
+
+            <div class="card">
+                <h3>قواعد البيانات</h3>
+                <p>فهم قواعد البيانات وSQL وتصميم الأنظمة.</p>
+            </div>
+
+            <div class="card">
+                <h3>الذكاء الاصطناعي</h3>
+                <p>اكتشف تقنيات الذكاء الاصطناعي وتطبيقاتها الحديثة.</p>
+            </div>
+
+            <div class="card">
+                <h3>الشبكات والأمن السيبراني</h3>
+                <p>تعلم أساسيات الشبكات وحماية المعلومات.</p>
+            </div>
+
+            <div class="card">
+                <h3>التطبيق العملي</h3>
+                <p>مشاريع وبرامج عملية لتحويل المعرفة إلى مهارات.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="instructor" id="instructor">
+        <h2>المدرب والمؤسس</h2>
+
+        <p>
+            المهندس علي رضا محمد
+            <br>
+            مهندس حاسوب ومدرب تقني مهتم بتعليم البرمجة
+            وتطوير المهارات الرقمية ونشر المعرفة التقنية باللغة العربية.
+        </p>
+    </section>
+
+    <section>
+        <h2>ابدأ رحلتك التعليمية</h2>
+
+        <p>
+            المعرفة تبدأ بسؤال، والإبداع يبدأ بالتجربة.
+            انضم إلينا واكتشف عالم البرمجة.
+        </p>
+
+        <a class="btn"
+           href="https://www.youtube.com/"
+           target="_blank"
+           rel="noopener">
+           زيارة قناة YouTube
+        </a>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 قهوة المبرمجين - جميع الحقوق محفوظة</p>
+    <p>Educational Content | Programming | Technology</p>
+</footer>
+
+</body>
+</html>
